@@ -1,0 +1,15 @@
+{
+  "name": "myprofile",
+  "version": "1.0.0",
+  "description": "Building a simple cv website using node js and Express",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Kimario",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

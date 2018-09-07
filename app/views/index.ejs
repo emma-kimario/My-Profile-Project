@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+        <!-- Insert the header.ejs template here -->
+        <% include partials/template/header.ejs %>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Insert the sidebar.ejs partial here -->
+    <% include partials/template/sidebar.ejs %>
+
+    <div class="container-fluid p-0">
+
+        <!-- Insert the about.ejs partial here -->
+        <% include partials/content/about.ejs %>
+
+        <!-- Insert the experience.ejs partial here -->
+        <% include partials/content/experience.ejs %>
+
+        <!-- Insert the education.ejs partial -->
+        <% include partials/content/education.ejs %>
+
+        <!-- Insert the skills.ejs partial -->
+        <% include partials/content/skills.ejs %>
+
+        <!-- Insert the awards.ejs partial -->
+        <% include partials/content/awards.ejs %>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <% include partials/template/footer.ejs %>
+
+
+  </body>
+
+</html>
