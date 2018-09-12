@@ -1,0 +1,19 @@
+{
+    "author":
+        {
+            "firstName": "Emmanuel",
+            "middleName": "Alex",
+            "lastName": "Kimario",
+            "about": "",
+            "adress": "PO BOX 12062 ARUSHA TANZANIA",
+            "email": "kimarioemmanuel@gmail.com",
+            "password": "kimario1234",
+            "DOB": "19930418",
+            "sex": "M",
+            "maritalStatus": "Single",
+            "religion": "Christian",
+            "nationality": "Tanzanian",
+            "phoneNumber": "+255755017802",
+            "timestamp": ""
+        }
+}

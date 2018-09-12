@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-        <!-- Insert the header.ejs template here -->
-        <% include partials/template/header.ejs %>
+  <!-- Insert the header.ejs template here -->
+  <% include partials/template/header.ejs %>
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
+  <!-- Insert the sidebar.ejs partial here -->
+  <% include partials/template/sidebar.ejs %>
 
-    <!-- Insert the sidebar.ejs partial here -->
-    <% include partials/template/sidebar.ejs %>
+  <div class="container-fluid p-0">
 
-    <div class="container-fluid p-0">
+    <!-- Insert the about.ejs partial here -->
+    <% include partials/content/about.ejs %>
 
-        <!-- Insert the about.ejs partial here -->
-        <% include partials/content/about.ejs %>
+    <!-- Insert the about.ejs partial here -->
+    <% include partials/content/personalInfo.ejs %>
 
-        <!-- Insert the experience.ejs partial here -->
-        <% include partials/content/experience.ejs %>
+    <!-- Insert the experience.ejs partial here -->
+    <% include partials/content/experience.ejs %>
 
-        <!-- Insert the education.ejs partial -->
-        <% include partials/content/education.ejs %>
+    <!-- Insert the education.ejs partial -->
+    <% include partials/content/education.ejs %>
 
-        <!-- Insert the skills.ejs partial -->
-        <% include partials/content/skills.ejs %>
+    <!-- Insert the skills.ejs partial -->
+    <% include partials/content/skills.ejs %>
 
-        <!-- Insert the awards.ejs partial -->
-        <% include partials/content/awards.ejs %>
+    <!-- Insert the awards.ejs partial -->
+    <% include partials/content/awards.ejs %>
 
-    </div>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <% include partials/template/footer.ejs %>
 
-    <!-- Bootstrap core JavaScript -->
-    <% include partials/template/footer.ejs %>
 
-
-  </body>
+</body>
 
 </html>
